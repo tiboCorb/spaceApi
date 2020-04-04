@@ -23,7 +23,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-you can accès too graphQL Plauground on :
+you can acces too graphQL Playground on :
 
 
 http://localhost:3000/graphql

@@ -6,19 +6,24 @@
 
 /* tslint:disable */
 /* eslint-disable */
+export enum Status {
+    GodLike = "GodLike",
+    kid = "kid"
+}
+
 export class CreateUserInput {
     name?: string;
     age?: number;
+}
+
+export abstract class IMutation {
+    abstract createUser(createUserInput?: CreateUserInput): User | Promise<User>;
 }
 
 export abstract class IQuery {
     abstract getUsers(): User[] | Promise<User[]>;
 
     abstract user(id: string): User | Promise<User>;
-}
-
-export abstract class IMutation {
-    abstract createUser(createUserInput?: CreateUserInput): User | Promise<User>;
 }
 
 export abstract class ISubscription {
@@ -28,5 +33,5 @@ export abstract class ISubscription {
 export class User {
     id?: number;
     name?: string;
-    status?: string;
+    status?: Status;
 }

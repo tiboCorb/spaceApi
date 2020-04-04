@@ -15,10 +15,15 @@ type Subscription {
 type User {
   id: Int
   name: String
-  status: String
+  status: Status
 }
 
 input CreateUserInput {
   name: String
   age: Int
+}
+
+enum Status {
+  GodLike
+  kid
 }
