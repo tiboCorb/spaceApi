@@ -1,0 +1,32 @@
+[
+        {
+            "id": 1,
+            "name": "steve",
+            "status": "kid"
+        },
+        {
+            "id": 2,
+            "name": "mike",
+            "status": "kid"
+        },
+        {
+            "id": 3,
+            "name": "joe",
+            "status": "kid"
+        },
+        {
+            "id": 4,
+            "name": "brian",
+            "status": "GodLike"
+        },
+        {
+            "id": 5,
+            "name": "wilson",
+            "status": "kid"
+        },
+        {
+            "id": 6,
+            "name": "kely",
+            "status": "kid"
+        }
+    ]
